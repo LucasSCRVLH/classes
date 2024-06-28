@@ -1,5 +1,9 @@
 package com.poo.classes;
 
-public class Emprestimo {
+import java.time.LocalDate;
 
+public class Emprestimo {
+ int ExemplarID;
+ int dataemp;
+ LocalDate dataEmprestimo = LocalDate.now();
 }
