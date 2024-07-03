@@ -5,6 +5,8 @@ public class Editora {
  int idExemplar;
  int idAutor;
 
+ 
+ 
 public int getidLivro(){
     return idLivro;
 }

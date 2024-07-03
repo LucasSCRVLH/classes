@@ -3,6 +3,18 @@ package com.poo.classes;
 public class Livro {
 String nomeLivro;
 String autor;
+int idLivro;
+static int contator =2;
+
+public Livro(int  idLivro){
+    this.idLivro = idLivro;
+    this.idLivro = contator;
+    contator++;
+ }
+
+
+
+
 
 public String getnomeLivro(){
     return nomeLivro;

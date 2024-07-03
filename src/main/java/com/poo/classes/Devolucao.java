@@ -7,22 +7,8 @@ public class Devolucao {
     int exemplarId;
     LocalDate dataDevolucao = LocalDate.now();
 
-    void entregaLivro(boolean devolve) {
 
-        /*
-         * Emprestimo ep = new Emprestimo();
-         * 
-         * if(devolve == true){
-         * 
-         * System.out.println("Livro:" + " " + "Na data" + dataDevolucao );
-         * } else{
-         * System.out.println("Você ainda não devolveu" + ep.dataEmprestimo);
-         * 
-         * }
-         */
-
-    }
-
+    
     public int getdataDev() {
         return dataDev;
     }

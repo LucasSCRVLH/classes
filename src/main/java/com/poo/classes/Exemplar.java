@@ -3,6 +3,19 @@ package com.poo.classes;
 public class Exemplar {
   int exemplarID;
   String nomeExemplar;
+  int contator = 3;
+  public Exemplar(int  exemplarID){
+    this.exemplarID = exemplarID;
+    this.exemplarID = contator;
+    contator++;
+ }
+
+
+
+
+
+
+
 public int getexemplarID(){
     return exemplarID;
 }
