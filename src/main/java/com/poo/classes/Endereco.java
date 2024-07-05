@@ -4,7 +4,20 @@ String nomeRua;
 String bairro;
 int numeroLog;
 int cep;
-//conter os dados de endereço
+private int enderecoID;
+
+private static int contadorEndereco = 0;
+
+
+
+public Endereco(int cep) {
+    this.cep = cep;
+    enderecoID = contadorEndereco;
+    contadorEndereco++;
+ }
+
+
+
 
 public String getnomeRua(){
     return nomeRua;
@@ -34,6 +47,12 @@ public void setcep(int cep){
     this.cep = cep;
 }
 
+public int getEnderecoID() {
+    return enderecoID;
+}
 
+public void setEnderecoID(int enderecoID) {
+    this.enderecoID = enderecoID;
+}
 
 }

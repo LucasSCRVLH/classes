@@ -6,8 +6,8 @@ String autor;
 int idLivro;
 static int contator =2;
 
-public Livro(int  idLivro){
-    this.idLivro = idLivro;
+public Livro(String nomeLivro, String autor){
+    this.nomeLivro =  nomeLivro;
     this.idLivro = contator;
     contator++;
  }
